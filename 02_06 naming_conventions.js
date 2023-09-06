@@ -11,9 +11,9 @@ let camelCaseExample = 'camel case => camelCase'
 console.log(camelCaseExample)
 
 //pascal case
-let PascalCaseExample = 'pascal case => PascalCase'
-console.log(PascalCaseExample)
+let PascalCaseExample = 'pascal case => PascalCase';
+console.log(PascalCaseExample);
 
 //snake case
-const snake_case_const = 'snake case like this --> snake_case_like_this'
-console.log(snake_case_const)
+const snake_case_const = 'snake case like this --> snake_case_like_this';
+console.log(snake_case_const);

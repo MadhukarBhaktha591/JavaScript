@@ -1,4 +1,4 @@
-console.log('helllloooooooooooooowrld',24)
+console.log('helllloooooooooooooowrld',24);
 
 //what are string?
 //strings are just a group of characters that are enclosed within '', "", or ``
