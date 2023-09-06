@@ -1,0 +1,4 @@
+let someString = '?????????'
+console.log(`Required answer ${someString.length - 5}`)
+
+
