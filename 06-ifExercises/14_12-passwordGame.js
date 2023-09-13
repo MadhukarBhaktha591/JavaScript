@@ -27,13 +27,14 @@ const r1 = readline.createInterface({
     output: process.stdout
 });
 
+//Explaining the user some hint as so they may get more points
 console.log(`Bob has set a password`);
 console.log(`We have been spying on Bob and understood that..`);
 console.log(`His PASS starts with a "?" everytime`);
 console.log(`he uses a lot of either ! or ? or % sign`);
 console.log(`and poor him he thinks he's safe by only using SPECIAL CHARS(!@#$%^&*()?)`);
 
-r1.question(`let's see with THESE HINTS how close was your guess to the actuel password :=) : `, (answer) => {
+r1.question(`let's see with THESE HINTS how close was your guess to the actual password :=) : `, (answer) => {
 
     
     let pointsEarned = 0
@@ -60,15 +61,10 @@ r1.question(`let's see with THESE HINTS how close was your guess to the actuel p
         console.log(`You got a total of ${pointsEarned} points.!!`);
         console.log("Thanks for trying !!");
     }
-
+ 
     if(pointsEarned <= 20){
         console.log(`Your password was ${pointsEarned*5} % close..`);
     }
     
-
-
-
-
-
     r1.close();
 });
