@@ -13,6 +13,10 @@ r1.question('Enter a number :=) : ', (answer) => {
     isNumber = Number(answer)/Number(answer) === 1
     console.log(isNumber? 'Thanks for the number' : 'Not a number :/');
 
+    
+let susInput = isNaN(answer) 
+console.log(susInput ? `Meh ${answer} is not a number :\ ` : `Thannk you for the number : ${answer}`);
+
     r1.close();
 });
 
