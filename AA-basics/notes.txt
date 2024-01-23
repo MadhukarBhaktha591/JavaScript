@@ -1,0 +1,15 @@
+::: Express JS :::
+
+= fast
+= auautheniated
+= 
+
+::: Express Routing :::
+= Express js is a web appllication framework for Node.js that provides a robust
+set of features for web and mobile appllications.
+= Routing is a crucial aspect of Express, handling how an application responds 
+to a client request based on the URL and HTTP method.
+
+:::  add a key value in package.json file
+    "type": "module",  save and run
+:::
